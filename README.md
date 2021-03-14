@@ -26,6 +26,9 @@ A cloudformation script containing (nearly) all requirements for creating a VPC 
 - No NAT GWs!
 - - I had them in prior while testing.  I took them out as they're not free.  
 
+# What is (nearly)?
+- The EC2 instances are not added to their proper security groups as mentioned elsewhere.  You have to add them manually for now.  
+- I do know now how to fix this.
 
 # Other concerns
 - There are no outputs on your script!
